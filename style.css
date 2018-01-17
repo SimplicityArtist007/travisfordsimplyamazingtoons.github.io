@@ -1,0 +1,199 @@
+body {
+	background:blue;
+}
+#header {
+	min-height: 180px;
+	width: 100%;
+	text-align: center;
+	background-color: #0CF;
+	border-radius: 11px 11px 0px 0px;
+	-moz-border-radius: 11px 11px 0px 0px;
+	-webkit-border-radius: 11px 11px 0px 0px;
+}
+
+
+.myphoto {
+	float:right;margin-right:18px;
+	-webkit-box-shadow: -1px 5px 24px 0px rgba(0, 0, 0, 0.81);
+-moz-box-shadow:    -1px 5px 24px 0px rgba(0, 0, 0, 0.81);
+box-shadow:         -1px 5px 24px 0px rgba(0, 0, 0, 0.81);
+border-radius: 11px; 
+-moz-border-radius: 11px; 
+-webkit-border-radius: 11px; 
+}
+.title {
+	font-size: 50px;
+	line-height:75px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.wallpaper {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+.wallpaper img {
+	height:100%;width:100%;
+}
+.descr {
+	font-size: 25px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	font-weight: bold;
+}
+
+	.subtitle {
+		font-size:19px;
+	}
+.mymenu {
+	width:100%;background:#036;margin-top:-20px;
+	margin-bottom:-17px;padding:5px 0px 5px 0px;
+	-webkit-box-shadow: 0px 11px 10px 0px rgba(0, 0, 0, 0.61);
+-moz-box-shadow:    0px 11px 10px 0px rgba(0, 0, 0, 0.61);
+box-shadow:         0px 11px 10px 0px rgba(0, 0, 0, 0.61);
+}
+.mymenu ul
+{
+list-style-type: none;
+text-align: center;
+}
+
+.mymenu ul li { display: inline; }
+
+.mymenu ul li a
+{
+	text-decoration: none;
+	margin: 4px 10px 4px 10px;
+	color: #00FFFF;
+	background-color: #0FF;
+}
+
+.mymenu ul li a:hover
+{
+	color: #003366;
+}
+.container {
+	width:80%;margin:auto;min-width:600px;position:relative;z-index:99;
+	-webkit-box-shadow: 0px 1px 28px 0px rgba(0, 0, 0, 0.7);
+-moz-box-shadow:    0px 1px 28px 0px rgba(0, 0, 0, 0.7);
+box-shadow:         0px 1px 28px 0px rgba(0, 0, 0, 0.7);
+
+}
+#contentbox {
+	width: 100%;
+	background-color: #FFF;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	height: 100%;
+}
+#footer {
+	height: 30px;
+	width: 100%;
+	background-color: #0099FF;
+	text-align: center;
+	margin-bottom: 25px;
+	border-radius: 0px 0px 11px 11px;
+	-moz-border-radius: 0px 0px 11px 11px;
+	-webkit-border-radius: 0px 0px 11px 11px;
+}
+.myphoto {
+	float: right;
+	margin-right: 18px;
+	-webkit-box-shadow: -1px 5px 24px 0px rgba(0, 0, 0, 0.81);
+	-moz-box-shadow: -1px 5px 24px 0px rgba(0, 0, 0, 0.81);
+	box-shadow: -1px 5px 24px 0px rgba(0, 0, 0, 0.81);
+	border-radius: 11px;
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	margin-bottom: 20px;
+}
+#header {
+	min-height: 180px;
+	width: 100%;
+	text-align: center;
+	background-color: #0CF;
+	border-radius: 11px 11px 0px 0px;
+	-moz-border-radius: 11px 11px 0px 0px;
+	-webkit-border-radius: 11px 11px 0px 0px;
+}
+.title {
+	font-size: 50px;
+	line-height:75px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	font-weight: bold;
+}
+.descr {
+	font-size: 25px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	font-weight: bold;
+}
+
+	.subtitle {
+		font-size:19px;
+	}
+.mymenu {
+	width:100%;background:#036;margin-top:-20px;
+	margin-bottom:-17px;padding:5px 0px 5px 0px;
+	-webkit-box-shadow: 0px 11px 10px 0px rgba(0, 0, 0, 0.61);
+-moz-box-shadow:    0px 11px 10px 0px rgba(0, 0, 0, 0.61);
+box-shadow:         0px 11px 10px 0px rgba(0, 0, 0, 0.61);
+}
+.mymenu ul
+{
+list-style-type: none;
+text-align: center;
+}
+
+#contentbox img {
+	width: 150px;
+	height: 150px;
+	background-color: #0CF;
+}
+
+.mymenu ul li { display: inline; }
+
+.mymenu ul li a
+{
+	text-decoration: none;
+	margin: 4px 10px 4px 10px;
+	color: #FFF;
+	background-color: #036;
+}
+
+.mymenu ul li a:hover
+{
+	color: #00FFFF;
+}
+.container {
+	width:80%;margin:auto;min-width:600px;position:relative;z-index:999;
+	-webkit-box-shadow: 0px 1px 28px 0px rgba(0, 0, 0, 0.7);
+-moz-box-shadow:    0px 1px 28px 0px rgba(0, 0, 0, 0.7);
+box-shadow:         0px 1px 28px 0px rgba(0, 0, 0, 0.7);
+
+}
+
+.imageabout {
+	text-align: left;
+	padding: 25px;
+	font-size: 20px;
+}
+
+.banner { position: relative; overflow: auto; margin-left:auto;margin-right:auto;}
+    .banner li { list-style: none; width:100%;height:480px;}
+        .banner ul li { float: left; width:100%;height:480px;}
+		.banner ul li img {
+			
+			
+			width:400px !important;height:400px !important;padding:10px;background:white;border:1px solid black;
+				-webkit-box-shadow: 0px 1px 28px 0px rgba(0, 0, 0, 0.7);
+-moz-box-shadow:    0px 1px 28px 0px rgba(0, 0, 0, 0.7);
+box-shadow:         0px 1px 28px 0px rgba(0, 0, 0, 0.7);
+		}
